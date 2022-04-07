@@ -1,14 +1,7 @@
 .surf {
   height: 500px;
-  background-image: url('images/test.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/test.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.surftext {
-  -webkit-backdrop-filter: brightness(50%);
-  backdrop-filter: brightness(50%);
-  height: 100%;
-  width: 100%;
 }
